@@ -37,6 +37,7 @@ export const data = {
             name: 'One Mission Bay',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★★☆',
             img: require('./src/img/house/1.png')
         },
@@ -45,6 +46,7 @@ export const data = {
             name: '1410 Steiner St',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★★★',
             img: require('./src/img/house/2.png')
         },
@@ -53,6 +55,7 @@ export const data = {
             name: '246 Sussex St',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★★☆',
             img: require('./src/img/house/3.png')
         },
@@ -61,6 +64,7 @@ export const data = {
             name: '1206 Market St',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★☆☆',
             img: require('./src/img/house/4.png')
         },
@@ -69,6 +73,7 @@ export const data = {
             name: 'One Mission Bay',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★☆☆',
             img: require('./src/img/house/5.png')
         },
@@ -77,6 +82,7 @@ export const data = {
             name: 'One Mission Bay',
             address: 'San Francisco, CA',
             price: '$2,950,000',
+            day:'14 days ago',
             star: '★★★★☆',
             img: require('./src/img/house/6.png')
         }

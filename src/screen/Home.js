@@ -3,8 +3,10 @@ import { View, Text, StyleSheet, Image, Button } from 'react-native';
 import { data } from '../../data';
 import { ScrollView } from 'react-native';
 import { TouchableOpacity } from 'react-native';
-const Home = () => {
+import { Alert } from 'react-native';
+const Home = ({ navigation }) => {
   const { Categories, House } = data;
+  
   return (
     <View style={styles.container}>
       <View style={styles.header} >
@@ -31,9 +33,17 @@ const Home = () => {
           <Image
             source={require('../img/icon/Add.png')}
           />
+            <TouchableOpacity onPress={() => navigation.navigate('Map')} style={styles.buttonMap}>
+             
           <Image
             source={require('../img/icon/Map.png')}
+            style={styles.btnMapImg}
+            
           />
+            </TouchableOpacity>
+            
+
+
         </View>
       </View>
       <View style={{ flex: 3, backgroundColor: 'white' }} >
@@ -77,7 +87,7 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor:'white',
+    backgroundColor: 'white',
     flex: 1,
   },
   header: {
